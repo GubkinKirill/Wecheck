@@ -117,20 +117,33 @@ body{
 }
 
 
-
 .header {
+  padding-top: 27px;
 }
 .header__container {
+  display: flex;
+
 }
 
-.header__row {
-}
 .header__logo {
 }
+.header__row {
+  display: flex;
+  height: 51px;
+  margin-left: auto;
+}
 .header__list {
+  display: flex;
+  align-items: center;
 }
 .header__list-item {
-  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 48px;
+}
+.header__link{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -140,9 +153,24 @@ body{
 ._green{
   color: #219653;
 }
-.header_input {
-  
+.header__button {
+  padding: 10px 24px 13px 24px;
+  border: 1px solid #219653;
+  border-radius: 100px;
+  cursor: pointer;
 }
+.header_input {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+  color: #219653;
+}
+
+
+
 
 
 /*=========*/
