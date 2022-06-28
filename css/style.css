@@ -108,7 +108,7 @@ body{
 
 }
 .wrapper {
-  
+  background: #fff;
 }
 ._container {
   max-width: 1286px;
@@ -168,13 +168,64 @@ body{
   letter-spacing: -0.3px;
   color: #219653;
 }
-
-
-
-
-
 /*=========*/
 .main {
 }
+
+.market {
+}
+.marcet__container {
+}
+
+.market__title {
+  font-family: "Gerbera";
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #333D37;
+}
+.market_img {
+  display: inline;
+}
+.market__work {
+  display: flex;
+}
+.market__work__video {
+}
+.market__work__video__btn {
+}
+.market__work__video__button {
+}
+.market__work__info {
+}
+.market__work__text {
+}
+.market__work__text__title {
+  font-family: "Gerbera";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120.33%;
+  color: #333D37;
+}
+.market__work__text__text {
+  font-family: 'Gerbera';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130.3%;
+color: rgba(0, 0, 0, 0.5);
+
+}
+.market__work__info__btns {
+}
+.market__work__info__btn {
+}
+.market__work__info__btns__text {
+}
+
+
+/*=========*/
 .footer {
 }
