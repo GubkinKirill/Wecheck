@@ -173,6 +173,7 @@ body{
 }
 
 .market {
+  margin-top: 46px;
 }
 .marcet__container {
 }
@@ -185,6 +186,7 @@ body{
   text-align: center;
   letter-spacing: -0.3px;
   color: #333D37;
+
 }
 .market_img {
   display: inline;
@@ -194,13 +196,25 @@ body{
 }
 .market__work__video {
 }
+.market__work__video{
+  width: 881px;
+  height: 609.85px;
+}
 .market__work__video__btn {
 }
 .market__work__video__button {
 }
 .market__work__info {
+  margin-top: 30px;
 }
 .market__work__text {
+  width: 260px;
+}
+.market__work__text:not(:last-child){
+  margin: 0 0 45px 0;
+}
+.market__worl__text:last-child{
+  margin: 0 0 143px 0;
 }
 .market__work__text__title {
   font-family: "Gerbera";
@@ -208,6 +222,7 @@ body{
   font-size: 18px;
   line-height: 120.33%;
   color: #333D37;
+  margin: 0 0 8px 0;
 }
 .market__work__text__text {
   font-family: 'Gerbera';
@@ -220,7 +235,24 @@ color: rgba(0, 0, 0, 0.5);
 }
 .market__work__info__btns {
 }
-.market__work__info__btn {
+.market__work__info__btn{
+ 
+}
+.market__work__info__btn button  {
+  font-family: 'Gerbera';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120.33%;
+  border: none;
+  color: #FFFFFF;
+    padding: 17.5px 20px 17.5px 42px;
+    background: #219653;
+  box-shadow: 0px 4px 12px rgba(11, 90, 45, 0.2);
+  border-radius: 333px;
+  cursor: pointer;
+  background: url(../images/main_market/cols.svg) no-repeat;
+  background-size: 10px 10px;
 }
 .market__work__info__btns__text {
 }
