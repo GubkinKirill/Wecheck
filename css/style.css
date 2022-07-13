@@ -195,14 +195,34 @@ body{
   display: flex;
 }
 .market__work__video {
+  position: relative;
 }
 .market__work__video{
   width: 881px;
   height: 609.85px;
 }
 .market__work__video__btn {
+  
 }
 .market__work__video__button {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  padding: 27.5px 20px 27.5px 70px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0px 0px 40px #B2D8C2;
+border-radius: 333px;
+background-image: url(../images/main_market/);
+background-repeat: no-repeat;
+}
+.market__work__video__buttont-text{
+  font-family: 'Gerbera';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0%;
+  color: #219653;
 }
 .market__work__info {
   margin-top: 30px;
@@ -234,16 +254,14 @@ color: rgba(0, 0, 0, 0.5);
 
 }
 .market__work__info__btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .market__work__info__btn{
  
 }
 .market__work__info__btn button  {
-  font-family: 'Gerbera';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 120.33%;
   border: none;
   color: #FFFFFF;
     padding: 17.5px 20px 17.5px 42px;
@@ -251,10 +269,29 @@ color: rgba(0, 0, 0, 0.5);
   box-shadow: 0px 4px 12px rgba(11, 90, 45, 0.2);
   border-radius: 333px;
   cursor: pointer;
-  background: url(../images/main_market/cols.svg) no-repeat;
-  background-size: 10px 10px;
+  background-image: url(../images/main_market/cols.svg);
+  background-repeat: no-repeat;
+  background-position-x: 20px;
+  background-position-y: 16px;
+}
+.market__worl__info__btn__text{
+  font-family: 'Gerbera';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120.33%;
 }
 .market__work__info__btns__text {
+  font-family: 'Gerbera';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120.33%;
+  text-align: center;
+  color: #219653;
+  margin: 26px 0 0 0px;
+  width: 200px;
+  
 }
 
 
